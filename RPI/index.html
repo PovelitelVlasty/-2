@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="owfont-master/owfont-master/css/owfont-regular.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="home_house_10811.ico">
+</head>
+
+<body>
+    <time id="time"></time>
+    <h2 id="den"></h2>
+    <h1>
+        <span id="hello"></span>
+        <span id="name" contenteditable="true"></span>
+    </h1>
+    <h2 id="quote"></h2>
+    <h2>Что у вас сегодня на уме?</h2>
+    <h2 id="focus" contenteditable="true"></h2>
+    <div id="weather">
+        <div class="city" contenteditable="true">Минск</div>
+        <i class="weather-icon owf"></i>
+        <div class="temperature" style="font-weight: bolder;"></div>
+        <div class="weather-description"></div>
+    </div>
+    <div>
+        <button onclick="nextImg()">
+            Фон
+        </button>
+        <button onclick="setQuote()">
+            Цитата
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
